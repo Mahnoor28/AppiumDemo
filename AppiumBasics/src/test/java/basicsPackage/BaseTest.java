@@ -37,10 +37,10 @@ public class BaseTest {
 	        options.setDeviceName("TestPhone");
 	        
 	        //For Windows 
-	       //options.setApp("C:\\Users\\<Your-UserName>\\eclipse-workspace\\Appium\\AppiumBasics\\src\\test\\java\\resources\\ApiDemos-debug.apk");
+	       //options.setApp("C:\\Users\\<Your-UserName>\\workspace\\Appium\\AppiumBasics\\src\\test\\java\\resources\\ApiDemos-debug.apk");
          
 	        //For Mac
-	        options.setApp("//Users//<Your-UserName>//workispace//Appium//src//test//java//resources//ApiDemos-debug.apk");
+	        options.setApp("//Users//<Your-UserName>//workspace//Appium//src//test//java//resources//ApiDemos-debug.apk");
 	        URI uri = new URI("http://127.0.0.1:4723");
 	        URL url = uri.toURL();
 
